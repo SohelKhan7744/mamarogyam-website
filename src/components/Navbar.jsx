@@ -76,7 +76,7 @@ type="text"
 placeholder="Search health articles..."
 value={search}
 onChange={(e)=>setSearch(e.target.value)}
-className="w-full border px-4 py-2 rounded text-black focus:outline-none"
+className="w-full md:w-1/2 border border-gray-300 px-5 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-mustard"
 />
 
 {/* Results */}
